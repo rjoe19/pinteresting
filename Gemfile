@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-ruby '2.3.4'
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
@@ -41,6 +40,9 @@ gem 'bootstrap-sass'
 
 gem 'paperclip', '~> 4.2'
 # gem that allows user to upload images
+
+gem 'devise', '~> 4.3'
+# gem that allows you to login on a website (authentication) --> popular gem!
 
 
 group :development, :test do
