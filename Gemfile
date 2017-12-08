@@ -44,6 +44,9 @@ gem 'paperclip', '~> 4.2'
 gem 'devise', '~> 4.3'
 # gem that allows you to login on a website (authentication) --> popular gem!
 
+#aws s3 gem that allows images to be stored
+gem 'aws-sdk', '~> 3.0', '>= 3.0.1'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
