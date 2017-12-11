@@ -45,7 +45,7 @@ gem 'devise', '~> 4.3'
 # gem that allows you to login on a website (authentication) --> popular gem!
 
 #aws s3 gem that allows images to be stored
-gem 'aws-sdk', '~> 3.0', '>= 3.0.1'
+gem 'aws-sdk', '<2.0'
 
 
 group :development, :test do
