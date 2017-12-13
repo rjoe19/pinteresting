@@ -49,6 +49,12 @@ gem 'aws-sdk', '<2.0'
 # mansonry gem for jquery styling
 gem 'masonry-rails', '~> 0.2.0'
 
+# gem that allows pagination, so the page won't be jam packed with pins!
+gem 'will_paginate', '~> 3.0.5'
+
+#gem that creates bootstrap paginator
+gem 'will_paginate-bootstrap'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
