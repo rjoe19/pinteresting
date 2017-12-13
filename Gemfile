@@ -55,6 +55,8 @@ gem 'will_paginate', '~> 3.0.5'
 #gem that creates bootstrap paginator
 gem 'will_paginate-bootstrap'
 
+gem 'turbolinks'
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
